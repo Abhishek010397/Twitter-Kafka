@@ -24,13 +24,13 @@ import java.util.concurrent.TimeUnit;
 
 public class TwitterProducer {
 
-    String consumerKey = "Gfk30Rqw8i4j9rF3EAfSDMANr";
-    String consumerSecret = "mfUq3PqAuftoxyftr7eDSdQ6hsP4JG1DUsRsS8g8tPXYEooC9M";
-    String token = "3188888323-SRxZbmhxwFcfqMfszJ5zasrOPAZJ5tPKirxZMpG";
-    String tokenSecret = "W7sFov9WyUKcLoHooHkLThjm07xbO7lAorPXdD2Ndq2tu";
+    String consumerKey = "Credentials";
+    String consumerSecret = "Credentials";
+    String token = "Credentials";
+    String tokenSecret = "Credentials";
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 
-    List<String> terms = Lists.newArrayList("AbhiKafka010397");
+    List<String> terms = Lists.newArrayList("Kafka");
     //constructor
     public TwitterProducer() {}
     public static void main(String[] args) {
