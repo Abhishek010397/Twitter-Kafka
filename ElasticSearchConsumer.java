@@ -53,9 +53,9 @@ public class ElasticSearchConsumer {
         //////////////////////////
 
         // replace with your own credentials
-        String hostname = "twitter-project-1041422776.us-east-1.bonsaisearch.net"; // localhost or bonsai url
-        String username = "ernfewh6b1"; // needed only for bonsai
-        String password = "tz90k5j6t2"; // needed only for bonsai
+        String hostname = ""; // localhost or bonsai url
+        String username = ""; // needed only for bonsai
+        String password = ""; // needed only for bonsai
 
         // credentials provider help supply username and password
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
